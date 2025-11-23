@@ -3,28 +3,28 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
-  { name: "HTML/CSS", level: 95, category: "frontend" },
-  { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 90, category: "frontend" },
-  { name: "TypeScript", level: 85, category: "frontend" },
-  { name: "Tailwind CSS", level: 90, category: "frontend" },
-  { name: "Next.js", level: 80, category: "frontend" },
+  { name: "HTML/CSS", level: 95, category: "الفتاوي" },
+  { name: "JavaScript", level: 90, category: "الفتاوي" },
+  { name: "React", level: 90, category: "الفتاوي" },
+  { name: "TypeScript", level: 85, category: "الفتاوي" },
+  { name: "Tailwind CSS", level: 90, category: "الفتاوي" },
+  { name: "Next.js", level: 80, category: "الفتاوي" },
 
   // Backend
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express", level: 75, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
-  { name: "GraphQL", level: 60, category: "backend" },
+  { name: "دروس كتاب الدروس المهمة", level: 80, category: "الدروس" },
+  { name: "Express", level: 75, category: "الدروس" },
+  { name: "MongoDB", level: 70, category: "الدروس" },
+  { name: "PostgreSQL", level: 65, category: "الدروس" },
+  { name: "GraphQL", level: 60, category: "الدروس" },
 
   // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-  { name: "Figma", level: 85, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
+  { name: "Git/GitHub", level: 90, category: "المقالات" },
+  { name: "Docker", level: 70, category: "المقالات" },
+  { name: "Figma", level: 85, category: "المقالات" },
+  { name: "VS Code", level: 95, category: "المقالات" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "الفتاوي", "الدروس", "المقالات"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -36,7 +36,7 @@ export const SkillsSection = () => {
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          My <span className="text-primary"> Skills</span>
+           مصادر<span className="text-primary">  التعلم</span>
         </h2>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -62,8 +62,9 @@ export const SkillsSection = () => {
               key={key}
               className="bg-card p-6 rounded-lg shadow-xs card-hover"
             >
-              <div className="text-left mb-4">
+              <div className="text-left mb-4" >
                 <h3 className="font-semibold text-lg"> {skill.name}</h3>
+                <a href="https://youtu.be/X8OqdwWqWso?si=FujQ4fGVT7NA0DN-" className="text-sm text-muted-foreground"></a>
               </div>
               <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
                 <div
