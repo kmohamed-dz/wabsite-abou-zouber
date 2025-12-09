@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const navItems = [
   { name: "الرئيسة", href: "#hero" },
   { name: "نبذة عن المشايخ", href: "#about" },
-  { name: "مصادر التعلم", href: "#learning-sources" }, 
+  { name: "مصادر التعلم", href: "#skills" }, 
   { name: "الكتب", href: "#projects" },
   { name: "تواصل", href: "#contact" },
 ];

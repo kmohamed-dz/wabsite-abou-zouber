@@ -191,10 +191,10 @@ export const SkillsSection = () => {
   );
 
   const showArticles = activeCategory === "all" || activeCategory === "المقالات";
-  const showBrochures = activeCategory === "all" || activeCategory === "المطويات";
+  //const showBrochures = activeCategory === "all" || activeCategory === "المطويات";
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-background via-secondary/10 to-background">
+    <section className="py-20 px-4 bg-gradient-to-b from-background via-secondary/10 to-background" id="skills">
       <div className="container mx-auto max-w-6xl">
 
         <div className="text-center mb-12">

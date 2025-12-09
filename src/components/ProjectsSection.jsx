@@ -7,7 +7,7 @@ const books = [
     author: "تأليف: الشيخ أبو الزبير محمد بن موسى الأزوادي حفظه الله",
     //description: "كتاب نفيس في بيان حكم السحر وأنواعه وطرق العلاج الشرعي منه",
     image: "/projects/abouzuber2.jpg", // ضع اسم الصورة اللي حملتها من الصورة الأولى
-    //downloadUrl: "https://t.me/your_link_here"
+    downloadUrl: "https://chat.whatsapp.com/KB1375T6gWo8WmfrwyqtA7?mode=hqrt1"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const books = [
     author: "تأليف: الشيخ سالم موريدا  حفظه الله",
     //description: "ردود علمية قوية على الصوفية والروافض والأشاعرة وغيرهم",
     image:"/projects/salam1.jpg",
-    //downloadUrl: "https://t.me/your_link_here"
+    downloadUrl: "https://chat.whatsapp.com/KB1375T6gWo8WmfrwyqtA7?mode=hqrt1"
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const books = [
     author: "إعداد: الشيخ محمد أداس السوقي حفظه الله",
     //description: "مجموعة نفيسة من الفوائد واللطائف والمواعظ من الكتاب والسنة",
     image: "/projects/adas1.jpg",
-    //downloadUrl: "https://t.me/your_link_here"
+    downloadUrl: "https://chat.whatsapp.com/KB1375T6gWo8WmfrwyqtA7?mode=hqrt1"
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const books = [
     author: "تأليف: الشيخ أبو الزبير محمد بن موسى الأزوادي حفظه الله",
     //description: "شرح نفيس لكلمة التوحيد «لا إله إلا الله» مع بيان شروطها ونواقضها",
     image: "/projects/abouzuber3.jpg",
-    //downloadUrl: "https://t.me/your_link_here"
+    downloadUrl: "https://chat.whatsapp.com/KB1375T6gWo8WmfrwyqtA7?mode=hqrt1"
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ const books = [
     author: "تأليف: الشيخ سالم موريدا حفظه الله",
     //description: "كشف لحقيقة جماعة الإخوان المفلسين وانحرافهم عن منهج السلف",
     image: "/projects/salam3.jpg",
-    //downloadUrl: "https://t.me/your_link_here"
+    downloadUrl: "https://chat.whatsapp.com/KB1375T6gWo8WmfrwyqtA7?mode=hqrt1"
   },
   {
     id: 6,
@@ -47,14 +47,14 @@ const books = [
     author: "تأليف: الشيخ سالم موريدا حفظه الله",
     //description: "فتاوى وأحكام تتعلق بتلاوة القرآن وحفظه وتجويده والعمل به",
     image: "/projects/salam4.jpg",
-    //downloadUrl: "https://t.me/your_link_here"
+    downloadUrl: "https://chat.whatsapp.com/KB1375T6gWo8WmfrwyqtA7?mode=hqrt1"
   },
   {
     id: 7,
-    title: "فتاوى الشيخ أبي الزبير الأزوادي",
-    author: "جمع وترتيب: طلاب العلم",
+    title: "    ",
+    author: " تأليف: الشيخ سالم موريدا حفظه الله" ,
     //description: "مجموعة من فتاوى الشيخ في العقيدة والمنهج والرد على المخالفين",
-    image: "/projects/abouzuber3.jpg",
+    image: "/projects/salam2.jpg",
     //downloadUrl: "https://t.me/your_link_here"
   },
   {
@@ -63,7 +63,7 @@ const books = [
     author: "تأليف: الشيخ أبو الزبير محمد بن موسى الأزوادي حفظه الله",
     //description: "كتاب في بيان أحكام الجهاد وشروطه وضوابطه على منهج أهل السنة",
     image: "/projects/abouzube1.jpg",
-    //downloadUrl: "https://t.me/your_link_here"
+    downloadUrl: "https://chat.whatsapp.com/KB1375T6gWo8WmfrwyqtA7?mode=hqrt1"
   }
 ];
 
@@ -73,7 +73,7 @@ export const ProjectsSection = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            الكتب <span className="text-primary">التي ألّفها المشايخ</span> حفظه الله
+            الكتب <span className="text-primary">التي ألّفها المشايخ</span> حفظهم الله
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             مؤلفات نفيسة في العقيدة والتوحيد والرد على أهل البدع، من إصدارات المشايخ الأفاضل
@@ -131,8 +131,8 @@ export const ProjectsSection = () => {
         {/* زر التواصل */}
         <div className="text-center mt-20">
           <a
-            href="https://t.me/your_telegram_username"
-            target="_blank"
+            href="#contact"
+            //target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-10 py-5 bg-primary text-white rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:bg-primary/90 transition-all"
           >
