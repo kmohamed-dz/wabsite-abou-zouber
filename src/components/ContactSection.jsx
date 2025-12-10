@@ -1,12 +1,7 @@
 import {
-  Instagram,
-  Linkedin,
   Mail,
   MapPin,
   Phone,
-  Send,
-  Twitch,
-  Twitter,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
@@ -69,10 +64,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Phone</h4>
                   <a
-                    href="tel:+11234567890"
+                    href="tel:+213552623560"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +(213) 0673507519
+                    +(213) 0552623560
                   </a>
                 </div>
               </div>
