@@ -34,7 +34,7 @@ export const Navbar = () => {
       <div className="container mx-auto px-4 flex items-center justify-between">
         {/* الشعار */}
         <a href="#hero" className="text-2xl font-bold text-primary">
-              أبشر  
+              منارة الجنوب العلمية  
         </a>
 
         {/* Desktop Menu */}

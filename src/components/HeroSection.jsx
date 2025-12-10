@@ -25,7 +25,7 @@ export const HeroSection = () => {
               أهلاً ومرحباً بكم في
             </span>
             <span className="text-gradient opacity-0 animate-fade-in-delay-2 block mt-3 text-3xl md:text-5xl font-bold">
-              موقع دروس المشايخ السلفيين
+              موقع دروس مشايخ اهل السنة والجماعة
             </span>
             <span className="block mt-5 text-xl md:text-3xl text-foreground/80 opacity-0 animate-fade-in-delay-3">
               بالجنوب الجزائري
