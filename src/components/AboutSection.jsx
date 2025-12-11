@@ -7,7 +7,7 @@ export const AboutSection = () => {
       <div className="container mx-auto max-w-6xl">
         {/* العنوان */}
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-16">
-          نبذة <span className="text-primary">عن المشايخ الأفاضل</span>
+          نبذة <span className="text-primary">عن المشايخ </span>
         </h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
@@ -102,7 +102,7 @@ export const AboutSection = () => {
                 <div>
                   <h4 className="text-xl font-bold mb-3">انشر الخير</h4>
                   <p className="text-muted-foreground leading-relaxed">
-                    ساعد في نشر هذا الموقع بين طلبة العلم لينتفعوا بعلم المشايخ الأفاضل ولنشر العلم  على الوجه الصحيح، ففي إحياء سنة ونشر علم حسنة.
+                    ساعد في نشر هذا الموقع بين طلبة العلم لينتفعوا بعلم المشايخ الأفاضل ولنشر العلم  ، ففي إحياء سنة ونشر علم حسنة.
                   </p>
                 </div>
               </div>

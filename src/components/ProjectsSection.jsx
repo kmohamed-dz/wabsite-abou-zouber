@@ -76,7 +76,7 @@ export const ProjectsSection = () => {
             الكتب <span className="text-primary">التي ألّفها المشايخ</span> حفظهم الله
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            مؤلفات نفيسة في العقيدة والتوحيد والرد على أهل البدع، من إصدارات المشايخ الأفاضل
+            مؤلفات  في العقيدة والتوحيد والرد على أهل البدع، من إصدارات المشايخ 
           </p>
         </div>
 
